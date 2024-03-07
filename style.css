@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea,
+select {
+    width: 97%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M7 10l5 5 5-5H7z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button#saveBtn {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+button#recoverBtn {
+    background-color: #2196f3;
+    color: #fff;
+}
+
+button#clearBtn {
+    background-color: #f44336;
+    color: #fff;
+}
+
+button:hover {
+    opacity: 0.8;
+    body {
+        font-family: Arial, sans-serif;
+        background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    }
+    }
+    
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+        color: #333;
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #555;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="date"],
+    input[type="email"],
+    textarea,
+    select {
+        width: 97%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    
+    select {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M7 10l5 5 5-5H7z'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 10px center;
+        background-size: 12px;
+    }
+    
+    button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    button#saveBtn {
+        background-color: #4caf50;
+        color: #fff;
+    }
+    
+    button#recoverBtn {
+        background-color: #2196f3;
+        color: #fff;
+    }
+    
+    button#clearBtn {
+        background-color: #f44336;
+        color: #fff;
+    }
+    
+    button:hover {
+        opacity: 0.8;
+    }
+    
+    .Antecedentes{
+        margin-top: 2%;
+    }
+    #btnGenerarDocumento {
+        background-color: transparent !important;
+    }
